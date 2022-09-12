@@ -1,0 +1,77 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+ */
+
+
+.bgred{
+    background : #E54242;
+}
+.bglimegreen{
+    background :  #C3F8C1;
+}
+.bgwhiter{
+    background :  #FFFFFF;
+}
+.bgskincolor{
+    background :  #E8C9AA;
+}
+.bgblack{
+    background :  #707070;
+}
+.bgblackr{
+    background :  #5E5E5E;
+}
+.bgwhite{
+    background :  #C8C8C8;
+}
+.bgred{
+    background : #E54242;
+}
+.bglimegreen{
+    background :  #C3F8C1;
+}
+.bgwhiter{
+    background :  #FFFFFF;
+}
+.bgskincolor{
+    background :  #E8C9AA;
+}
+.bgblack{
+    background :  #707070;
+}
+.bgblackr{
+    background :  #5E5E5E;
+}
+.bgwhite{
+    background :  #C8C8C8;
+}
+.red{
+    color : #E54242;
+}
+.limegreen{
+    color :  #C3F8C1;
+}
+.whiter{
+    color :  #FFFFFF;
+}
+.skincolor{
+    color :  #E8C9AA;
+}
+.black{
+    color :  #707070;
+}
+.blackr{
+    color :  #5E5E5E;
+}
+.white{
+    color :  #C8C8C8;
+}
+.height-100vh{
+   /* height : 80vh; */
+}
+
+.trans50{
+    transform: translateX(-54%);
+    margin-top: 16%;
+}
