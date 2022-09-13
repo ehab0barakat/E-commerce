@@ -21,12 +21,14 @@
 <body>
     <div id="app">
 
-        <x-nav-bar/>
-
+        <x-nav_bar/>
 
         <main>
             @yield('content')
         </main>
+
+
+        <x-products/>
 
     </div>
 </body>

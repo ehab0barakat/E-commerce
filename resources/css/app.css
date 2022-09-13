@@ -75,3 +75,13 @@
     transform: translateX(-54%);
     margin-top: 16%;
 }
+
+
+@media (min-width: 1400px){
+    .co-lg{
+            width: 33.33333333%
+    }
+}
+
+
+

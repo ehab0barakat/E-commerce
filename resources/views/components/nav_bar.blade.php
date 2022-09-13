@@ -1,8 +1,7 @@
+
 <nav class="navbar navbar-expand-md navbar-light bg-white m-0 p-0">
     <div class="container-fluid p-0 m-0">
-        {{-- <a class="navbar-brand" href="{{ url('/') }}">
-            {{ config('app.name', 'Laravel') }}
-        </a> --}}
+
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -11,18 +10,10 @@
             <!-- Left Side Of Navbar -->
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto col-8 bg-white d-flex justify-content-around text-center">
-                  <li class="nav-item my-3 fs-5 fw-bolder">
-                    <a class="nav-link skincolor" aria-current="page" href="{{ url('/') }}">HOME</a>
-                  </li>
-                  <li class="nav-item my-3 fs-5 fw-bolder">
-                    <a class="nav-link skincolor" aria-current="page" href="{{ url('/') }}">SHOP</a>
-                  </li>
-                  <li class="nav-item my-3 fs-5 fw-bolder">
-                    <a class="nav-link skincolor" aria-current="page" href="{{ url('/') }}">BLOG</a>
-                  </li>
-                  <li class="nav-item my-3 fs-5 fw-bolder">
-                    <a class="nav-link skincolor" aria-current="page" href="{{ url('/') }}">PAGES</a>
-                  </li>
+                    <x-link>HOME</x-link>
+                    <x-link>SHOP</x-link>
+                    <x-link link="/haha" >PLOG</x-link>
+                    <x-link>PAGES</x-link>
                 </ul>
 
                 <!-- Right Side Of Navbar -->
@@ -63,3 +54,4 @@
         </div>
     </div>
 </nav>
+
