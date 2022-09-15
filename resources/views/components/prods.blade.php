@@ -1,7 +1,7 @@
-{{-- @props(["title", "price"]) --}}
+@props(["title", "price"])
 
 
-<div class="col col-4" {{$attributes}}>
+<div class="col d-flex justify-content-center" {{$attributes}}>
 
     <div class="card bg-transparent border-0" style="width: 18rem;">
         <img src="images/3.png" class="card-img-top" alt="...">
