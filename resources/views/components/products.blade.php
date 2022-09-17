@@ -1,4 +1,4 @@
-@props(["reverse"])
+@props(["reverse" , "highlight"])
 
 @if (isset($reverse))
     @php
@@ -17,7 +17,7 @@
     <div class="row d-flex justify-content-center  {{$reverse}} ">
 
         <div class="d-none d-md-block col-4 pt-5 mt-5 flex-grow-1">
-            <h2 class="text-center fw-bolder " style="font-size:60px">#for her</h2>
+            <h2 class="text-center fw-bolder " style="font-size:60px">{{$highlight}}</h2>
             <img src="images/1.png" width="100%"  alt="">
         </div>
 

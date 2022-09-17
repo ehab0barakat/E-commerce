@@ -10,8 +10,8 @@
             <!-- Left Side Of Navbar -->
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto col-8 bg-white d-flex justify-content-around text-center">
-                    <x-link>HOME</x-link>
-                    <x-link>SHOP</x-link>
+                    <x-link link="/" >HOME</x-link>
+                    <x-link link="/categories" >SHOP</x-link>
                     <x-link link="/haha" >PLOG</x-link>
                     <x-link>PAGES</x-link>
                 </ul>

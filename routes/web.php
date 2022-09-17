@@ -21,6 +21,23 @@ Route::get('/categories', function () {
     return view('categories');
 });
 
+Route::get('/categories/{mainCat}/', function () {
+    return view('categoriesMainCat');
+});
+
+Route::get('/categories/{mainCat}/{subCat}', function () {
+    return view('categoriesMainCatSubCat');
+});
+
+
+Route::get('singleProduct/', function () {
+    return view('productdetail');
+});
+
+
+
+
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');

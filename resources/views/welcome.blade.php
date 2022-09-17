@@ -19,9 +19,9 @@
 
 
 
-    <x-products />
+    <x-products highlight="#For Her" />
 
-    <x-products reverse />
+    <x-products reverse highlight="#For Him" />
 
 
     <x-footer />

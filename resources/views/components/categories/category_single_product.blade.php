@@ -1,11 +1,11 @@
-@props(['link', 'img', 'title'])
+@props(['link', 'img', 'title'=> "" , "subCat"=>""])
 
 
-<x-link link="{{ $link ?? '/' }}" style="list-style: none ; width:20% ; padding:20px 0;">
-    <div class="card" style="width: 15rem;">
-        <img src={{ $img ?? 'images/3.png' }} class="card-img-top" alt="...">
+<a href="{{ $link ?? "$subCat/$title"  }}" class="text-decoration-none col col-sm-3 col-md-4 col-lg-2 ">
+    <div class="card border-0" style="background:transparent">
+        <img src={{ $img ??'/images/flour.png' }} class="img-fluid" alt="...">
         <div class="card-body">
-            <h5 class="card-title">{{ $title ?? 'this is the title :)' }}</h5>
+            <h5 class="card-title text-center text-dark">{{ $title ?? 'this is the title :)' }}</h5>
         </div>
     </div>
-</x-link>
+</a>

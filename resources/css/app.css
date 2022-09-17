@@ -83,5 +83,16 @@
     }
 }
 
+.panel{
+    width: 100%;
+    height: fit-content;
+}
 
+
+@media (min-width: 768px){
+    .panel{
+        width: 300px;
+        height: 100%;
+    }
+}
 

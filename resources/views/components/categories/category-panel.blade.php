@@ -1,5 +1,5 @@
 
-    <div class="col-3 p-4 d-flex flex-column gap-3" style="background: #eee; width: 300px; height: 100%;" >
+    <div class="col-3 p-4 d-flex flex-row flex-md-column gap-3 overflow-scroll panel" style="background: #eee; height:100vh" >
 
         <x-categories.category_panel_single>Supermarket</x-categories.category_panel_single>
 
